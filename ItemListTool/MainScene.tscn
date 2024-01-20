@@ -1,0 +1,215 @@
+[gd_scene load_steps=10 format=3 uid="uid://u3selw0emvfx"]
+
+[ext_resource type="Texture2D" uid="uid://bbd2khd40r8t8" path="res://assets/icons/githubicon.png" id="1_f5d47"]
+[ext_resource type="Script" path="res://MainScene.cs" id="1_jc2ww"]
+[ext_resource type="FontFile" uid="uid://cj3nly3d5m8xf" path="res://assets/fonts/Dosis-Medium.ttf" id="2_memjj"]
+[ext_resource type="Texture2D" uid="uid://ujijxfa8rmnm" path="res://assets/icons/ko-fi_logo-2039355488.png" id="2_yorad"]
+[ext_resource type="FontFile" uid="uid://b2jh2a5ulf60" path="res://assets/fonts/Mukta-Light.ttf" id="3_e42qr"]
+[ext_resource type="FontFile" uid="uid://ddy8upv0fuddn" path="res://assets/fonts/Poppins-Regular.ttf" id="4_4tcxa"]
+[ext_resource type="FontFile" uid="uid://d3ji4025s6twf" path="res://assets/fonts/Poppins-Black.ttf" id="5_uiinp"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_m808n"]
+border_width_left = 5
+border_width_right = 5
+border_width_bottom = 5
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_m24lq"]
+
+[node name="MarginContainer" type="MarginContainer"]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_jc2ww")
+
+[node name="Panel" type="Panel" parent="."]
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_m808n")
+
+[node name="MarginContainer" type="MarginContainer" parent="."]
+layout_mode = 2
+theme_override_constants/margin_left = 15
+theme_override_constants/margin_top = 15
+theme_override_constants/margin_right = 15
+theme_override_constants/margin_bottom = 15
+
+[node name="VBoxContainer" type="VBoxContainer" parent="MarginContainer"]
+layout_mode = 2
+alignment = 1
+
+[node name="HBoxContainer4" type="HBoxContainer" parent="MarginContainer/VBoxContainer"]
+layout_mode = 2
+alignment = 1
+
+[node name="Label" type="Label" parent="MarginContainer/VBoxContainer/HBoxContainer4"]
+layout_mode = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("2_memjj")
+theme_override_font_sizes/font_size = 36
+text = "Zomboid Item CSV Generator"
+horizontal_alignment = 1
+
+[node name="Label2" type="Label" parent="MarginContainer/VBoxContainer/HBoxContainer4"]
+layout_mode = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("3_e42qr")
+text = "by sixstepsaway"
+vertical_alignment = 2
+
+[node name="HBoxContainer" type="HBoxContainer" parent="MarginContainer/VBoxContainer"]
+layout_mode = 2
+size_flags_vertical = 4
+alignment = 2
+
+[node name="Label" type="Label" parent="MarginContainer/VBoxContainer/HBoxContainer"]
+layout_mode = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("4_4tcxa")
+text = "Zomboid Mod Folder Location"
+
+[node name="ModFolderLocationTXT" type="TextEdit" parent="MarginContainer/VBoxContainer/HBoxContainer"]
+custom_minimum_size = Vector2(250, 0)
+layout_mode = 2
+theme_override_fonts/font = ExtResource("4_4tcxa")
+
+[node name="ModFolderLocationBRWSE" type="Button" parent="MarginContainer/VBoxContainer/HBoxContainer"]
+layout_mode = 2
+mouse_default_cursor_shape = 2
+theme_override_fonts/font = ExtResource("2_memjj")
+text = "Browse"
+
+[node name="HBoxContainer2" type="HBoxContainer" parent="MarginContainer/VBoxContainer"]
+layout_mode = 2
+size_flags_vertical = 4
+alignment = 2
+
+[node name="Label" type="Label" parent="MarginContainer/VBoxContainer/HBoxContainer2"]
+layout_mode = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("4_4tcxa")
+text = "Output File "
+
+[node name="OutputFileLocationTXT" type="TextEdit" parent="MarginContainer/VBoxContainer/HBoxContainer2"]
+custom_minimum_size = Vector2(250, 0)
+layout_mode = 2
+theme_override_fonts/font = ExtResource("4_4tcxa")
+
+[node name="OutputFileLocationBRWSE" type="Button" parent="MarginContainer/VBoxContainer/HBoxContainer2"]
+layout_mode = 2
+mouse_default_cursor_shape = 2
+theme_override_fonts/font = ExtResource("2_memjj")
+text = "Browse"
+
+[node name="ProgressBar" type="ProgressBar" parent="MarginContainer/VBoxContainer"]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("5_uiinp")
+
+[node name="Generate" type="Button" parent="MarginContainer/VBoxContainer"]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("2_memjj")
+theme_override_font_sizes/font_size = 20
+text = "Generate Data (May Take a While)"
+
+[node name="HBoxContainer3" type="HBoxContainer" parent="MarginContainer"]
+layout_mode = 2
+size_flags_vertical = 8
+alignment = 2
+
+[node name="MarginContainer" type="MarginContainer" parent="MarginContainer/HBoxContainer3"]
+layout_mode = 2
+theme_override_constants/margin_left = 10
+theme_override_constants/margin_top = 5
+theme_override_constants/margin_right = 470
+theme_override_constants/margin_bottom = 5
+
+[node name="Label" type="Label" parent="MarginContainer/HBoxContainer3/MarginContainer"]
+layout_mode = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("3_e42qr")
+theme_override_font_sizes/font_size = 15
+text = "Version 1.0"
+
+[node name="MarginContainer2" type="MarginContainer" parent="MarginContainer/HBoxContainer3"]
+layout_mode = 2
+theme_override_constants/margin_left = 10
+theme_override_constants/margin_top = 5
+theme_override_constants/margin_right = 10
+theme_override_constants/margin_bottom = 5
+
+[node name="Button_Github" type="Button" parent="MarginContainer/HBoxContainer3/MarginContainer2"]
+layout_mode = 2
+tooltip_text = "Source Code"
+theme_override_styles/normal = SubResource("StyleBoxEmpty_m24lq")
+theme_override_styles/hover = SubResource("StyleBoxEmpty_m24lq")
+theme_override_styles/pressed = SubResource("StyleBoxEmpty_m24lq")
+theme_override_styles/disabled = SubResource("StyleBoxEmpty_m24lq")
+theme_override_styles/focus = SubResource("StyleBoxEmpty_m24lq")
+
+[node name="TextureRect" type="TextureRect" parent="MarginContainer/HBoxContainer3/MarginContainer2"]
+custom_minimum_size = Vector2(0, 30)
+layout_mode = 2
+texture = ExtResource("1_f5d47")
+expand_mode = 3
+
+[node name="ColorRect" type="ColorRect" parent="MarginContainer/HBoxContainer3/MarginContainer2/TextureRect"]
+visible = false
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="MarginContainer3" type="MarginContainer" parent="MarginContainer/HBoxContainer3"]
+layout_mode = 2
+theme_override_constants/margin_left = 10
+theme_override_constants/margin_top = 5
+theme_override_constants/margin_right = 10
+theme_override_constants/margin_bottom = 5
+
+[node name="Button_KoFi" type="Button" parent="MarginContainer/HBoxContainer3/MarginContainer3"]
+layout_mode = 2
+tooltip_text = "Say Thanks"
+theme_override_styles/normal = SubResource("StyleBoxEmpty_m24lq")
+theme_override_styles/hover = SubResource("StyleBoxEmpty_m24lq")
+theme_override_styles/pressed = SubResource("StyleBoxEmpty_m24lq")
+theme_override_styles/disabled = SubResource("StyleBoxEmpty_m24lq")
+theme_override_styles/focus = SubResource("StyleBoxEmpty_m24lq")
+
+[node name="TextureRect" type="TextureRect" parent="MarginContainer/HBoxContainer3/MarginContainer3"]
+custom_minimum_size = Vector2(0, 30)
+layout_mode = 2
+texture = ExtResource("2_yorad")
+expand_mode = 3
+
+[node name="ColorRect" type="ColorRect" parent="MarginContainer/HBoxContainer3/MarginContainer3/TextureRect"]
+visible = false
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="FileDialog_ModsFolder" type="FileDialog" parent="."]
+title = "Open a Directory"
+size = Vector2i(762, 459)
+ok_button_text = "Select Current Folder"
+file_mode = 2
+access = 2
+show_hidden_files = true
+
+[node name="FileDialog_SaveFile" type="FileDialog" parent="."]
+title = "Open a Directory"
+size = Vector2i(762, 459)
+ok_button_text = "Select Current Folder"
+file_mode = 2
+access = 2
+show_hidden_files = true
+
+[connection signal="pressed" from="MarginContainer/VBoxContainer/HBoxContainer/ModFolderLocationBRWSE" to="." method="_on_mod_folder_location_brwse_pressed"]
+[connection signal="pressed" from="MarginContainer/VBoxContainer/HBoxContainer2/OutputFileLocationBRWSE" to="." method="_on_output_file_location_brwse_pressed"]
+[connection signal="pressed" from="MarginContainer/VBoxContainer/Generate" to="." method="_on_generate_pressed"]
+[connection signal="pressed" from="MarginContainer/HBoxContainer3/MarginContainer2/Button_Github" to="." method="_on_button_github_pressed"]
+[connection signal="pressed" from="MarginContainer/HBoxContainer3/MarginContainer3/Button_KoFi" to="." method="_on_button_ko_fi_pressed"]
+[connection signal="canceled" from="FileDialog_ModsFolder" to="." method="_on_file_dialog_mods_folder_canceled"]
+[connection signal="confirmed" from="FileDialog_ModsFolder" to="." method="_on_file_dialog_mods_folder_confirmed"]
+[connection signal="dir_selected" from="FileDialog_ModsFolder" to="." method="_on_file_dialog_mods_folder_dir_selected"]
+[connection signal="canceled" from="FileDialog_SaveFile" to="." method="_on_file_dialog_save_file_canceled"]
+[connection signal="confirmed" from="FileDialog_SaveFile" to="." method="_on_file_dialog_save_file_confirmed"]
+[connection signal="dir_selected" from="FileDialog_SaveFile" to="." method="_on_file_dialog_save_file_dir_selected"]

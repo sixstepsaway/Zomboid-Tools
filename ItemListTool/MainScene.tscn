@@ -64,7 +64,7 @@ layout_mode = 2
 theme_override_colors/font_color = Color(0, 0, 0, 1)
 theme_override_fonts/font = ExtResource("2_memjj")
 theme_override_font_sizes/font_size = 36
-text = "Zomboid Item CSV Generator"
+text = "Zomboid Item List Generator"
 horizontal_alignment = 1
 
 [node name="Label2" type="Label" parent="MarginContainer/VBoxContainer/HBoxContainer4"]
@@ -105,7 +105,7 @@ alignment = 2
 layout_mode = 2
 theme_override_colors/font_color = Color(0, 0, 0, 1)
 theme_override_fonts/font = ExtResource("4_4tcxa")
-text = "Output File "
+text = "Output Folder"
 
 [node name="OutputFileLocationTXT" type="TextEdit" parent="MarginContainer/VBoxContainer/HBoxContainer2"]
 custom_minimum_size = Vector2(250, 0)
@@ -140,7 +140,7 @@ horizontal_alignment = 1
 layout_mode = 2
 theme_override_fonts/font = ExtResource("2_memjj")
 theme_override_font_sizes/font_size = 20
-text = "Generate Data (May Take a While)"
+text = "Generate Data"
 
 [node name="Cancel" type="Button" parent="MarginContainer/VBoxContainer"]
 visible = false

@@ -1,16 +1,18 @@
 {
   "version": 2,
-  "dgSpecHash": "MW4aHtYfbkOh30nl5mwBP1abNhBCwe2D2Sb+Gqvs8t5s2Bdhy+H+1NvS4LdSe8deC9HIRFoAw2XokeKtqccpMw==",
+  "dgSpecHash": "tYwp07/Sb6aUz04cvV7MKoX4pXE8g16QxtMq4Zip5sosVzQE+7vMjMzAwPK1QvFNsWQLvqRdpPKdyGvBHZfb0A==",
   "success": true,
   "projectFilePath": "G:\\Project Zomboid\\Modding\\_Tools\\ItemListTool\\ItemListTool.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\conta\\.nuget\\packages\\godot.sourcegenerators\\4.2.0\\godot.sourcegenerators.4.2.0.nupkg.sha512",
     "C:\\Users\\conta\\.nuget\\packages\\godotsharp\\4.2.0\\godotsharp.4.2.0.nupkg.sha512",
-    "C:\\Users\\conta\\.nuget\\packages\\godotsharpeditor\\4.2.0\\godotsharpeditor.4.2.0.nupkg.sha512",
     "C:\\Users\\conta\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
-    "C:\\Users\\conta\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.24\\microsoft.aspnetcore.app.ref.6.0.24.nupkg.sha512",
     "C:\\Users\\conta\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.24\\microsoft.netcore.app.ref.6.0.24.nupkg.sha512",
-    "C:\\Users\\conta\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.24\\microsoft.windowsdesktop.app.ref.6.0.24.nupkg.sha512"
+    "C:\\Users\\conta\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x64\\6.0.24\\microsoft.netcore.app.runtime.win-x64.6.0.24.nupkg.sha512",
+    "C:\\Users\\conta\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.24\\microsoft.windowsdesktop.app.ref.6.0.24.nupkg.sha512",
+    "C:\\Users\\conta\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x64\\6.0.24\\microsoft.windowsdesktop.app.runtime.win-x64.6.0.24.nupkg.sha512",
+    "C:\\Users\\conta\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.24\\microsoft.aspnetcore.app.ref.6.0.24.nupkg.sha512",
+    "C:\\Users\\conta\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x64\\6.0.24\\microsoft.aspnetcore.app.runtime.win-x64.6.0.24.nupkg.sha512"
   ],
   "logs": []
 }

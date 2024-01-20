@@ -1,10 +1,10 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1705722628
+::res://::1705723011
 icon.svg::CompressedTexture2D::6594254583166896665::1705720566::1705720585::1::::<><>::
-MainScene.cs::CSharpScript::-1::1705722311::0::1::::<><>::
-MainScene.tscn::PackedScene::1462680111804013141::1705722350::0::1::::<><>::uid://bbd2khd40r8t8::::res://assets/icons/githubicon.png<>res://MainScene.cs<>uid://ujijxfa8rmnm::::res://assets/icons/ko-fi_logo-2039355488.png
+MainScene.cs::CSharpScript::-1::1705723290::0::1::::<><>::
+MainScene.tscn::PackedScene::1462680111804013141::1705723011::0::1::::<><>::uid://bbd2khd40r8t8::::res://assets/icons/githubicon.png<>res://MainScene.cs<>uid://cj3nly3d5m8xf::::res://assets/fonts/Dosis-Medium.ttf<>uid://ujijxfa8rmnm::::res://assets/icons/ko-fi_logo-2039355488.png<>uid://b2jh2a5ulf60::::res://assets/fonts/Mukta-Light.ttf<>uid://ddy8upv0fuddn::::res://assets/fonts/Poppins-Regular.ttf<>uid://d3ji4025s6twf::::res://assets/fonts/Poppins-Black.ttf
 ::res://assets/::1705722658
-::res://assets/fonts/::1705722731
+::res://assets/fonts/::1705722734
 BebasNeue-Regular.ttf::FontFile::7663804697348277284::1692985884::1705722734::1::::<><>::
 Dosis-Bold.ttf::FontFile::2616996264952633285::1692985884::1705722734::1::::<><>::
 Dosis-ExtraBold.ttf::FontFile::4347357792209845128::1692985884::1705722734::1::::<><>::

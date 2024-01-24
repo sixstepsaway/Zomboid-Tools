@@ -34,6 +34,7 @@ namespace ZomboidItemListTool.Containers
     [XmlRoot("Items")]
     public class ZomboidItem{
         public string Name {get; set;}
+        public string Module {get; set;}
         [XmlElement("Stats")]
         public List<ZomboidStat> Stats {get; set;}
 
